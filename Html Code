@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warehouse Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .welcome {
+            background: #e2e2e2;
+            padding: 20px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .feature {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            margin: 0 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Warehouse Management System</h1>
+    <nav>
+        <a href="#features">Features</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="welcome">
+        <h2>Welcome to Our Warehouse Management System</h2>
+        <p>Streamline your warehouse operations with our comprehensive management tools.</p>
+    </div>
+
+    <div id="features" class="features">
+        <div class="feature">
+            <h3>Inventory Management</h3>
+            <p>Keep track of your stock levels, orders, and deliveries in real-time.</p>
+        </div>
+        <div class="feature">
+            <h3>Order Fulfillment</h3>
+            <p>Efficiently manage and fulfill customer orders with ease.</p>
+        </div>
+        <div class="feature">
+            <h3>Reporting & Analytics</h3>
+            <p>Gain insights into your operations with detailed reports and analytics.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2023 Warehouse Management System. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
